@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnM1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="메뉴1" />
+
+        <Button
+            android:id="@+id/btnM2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="메뉴2" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtM1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FBF7D2"
+            android:gravity="center"
+            android:text="메뉴1 내용"
+            android:textSize="50dp" />
+
+        <TextView
+            android:id="@+id/txtM2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#B5DE84"
+            android:gravity="center"
+            android:text="메뉴2 내용"
+            android:textSize="50dp" />
+
+    </FrameLayout>
+
+</LinearLayout>
